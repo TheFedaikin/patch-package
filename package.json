@@ -21,6 +21,7 @@
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
     "test": "ava",
+    "start": "bun main.ts",
     "version": "napi version"
   }
 }
